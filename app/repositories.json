@@ -1,0 +1,66 @@
+{
+  "data": [
+    {
+      "id": 519965312,
+      "name": "AppRepositories",
+      "owner": {
+        "login": "Karl-Otaner",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4"
+      },
+      "stargazers_count": 0,
+      "language": "Kotlin",
+      "html_url": "https://github.com/Karl-Otaner/AppRepositories",
+      "description": "description"
+    },
+    {
+      "id": 511900797,
+      "name": "AppFutebolFeminino",
+      "owner": {
+        "login": "Karl-Otaner",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4"
+      },
+      "html_url": "https://github.com/Karl-Otaner/AppFutebolFeminino",
+      "description": "BootCamp Santander 2022 - Modulo II - Desafio de projeto",
+      "url": "https://api.github.com/repos/Karl-Otaner/AppFutebolFeminino",
+      "stargazers_count": 0,
+      "language": "Java"
+    },
+    {
+      "id": 501892028,
+      "name": "AplicandoConceitosDeColecoesArraysEListas",
+      "owner": {
+        "login": "Karl-Otaner",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4"
+      },
+      "html_url": "https://github.com/Karl-Otaner/AplicandoConceitosDeColecoesArraysEListas",
+      "description": "created string array of class",
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Kotlin"
+    },
+    {
+      "id": 513365755,
+      "name": "ApiFutebolFeminino",
+      "owner": {
+        "login": "Karl-Otaner",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4"
+      },
+      "html_url": "https://github.com/Karl-Otaner/ApiFutebolFeminino",
+      "description": "Soccer News",
+      "stargazers_count": 0,
+      "language": "json"
+    },
+    {
+      "id": 391786725,
+      "name": "api-collections",
+      "owner": {
+        "login": "Karl-Otaner",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4"
+      },
+      "html_url": "https://github.com/Karl-Otaner/api-collections",
+      "description": "description",
+      "stargazers_count": 0,
+      "language": "Kotlin"
+    }
+  ]
+}

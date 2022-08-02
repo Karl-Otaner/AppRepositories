@@ -1,7 +1,8 @@
-package com.dio.apprepositories
+package com.dio.apprepositories.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.dio.apprepositories.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

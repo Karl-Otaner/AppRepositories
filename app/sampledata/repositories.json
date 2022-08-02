@@ -7,7 +7,7 @@
         "login": "Karl-Otaner",
         "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4"
       },
-      "stargazers_count": 0,
+      "stargazers_count":5,
       "language": "Kotlin",
       "html_url": "https://github.com/Karl-Otaner/AppRepositories",
       "description": "description"
@@ -22,7 +22,7 @@
       "html_url": "https://github.com/Karl-Otaner/AppFutebolFeminino",
       "description": "BootCamp Santander 2022 - Modulo II - Desafio de projeto",
       "url": "https://api.github.com/repos/Karl-Otaner/AppFutebolFeminino",
-      "stargazers_count": 0,
+      "stargazers_count": 4,
       "language": "Java"
     },
     {
@@ -35,7 +35,6 @@
       "html_url": "https://github.com/Karl-Otaner/AplicandoConceitosDeColecoesArraysEListas",
       "description": "created string array of class",
       "stargazers_count": 0,
-      "watchers_count": 0,
       "language": "Kotlin"
     },
     {
@@ -47,7 +46,7 @@
       },
       "html_url": "https://github.com/Karl-Otaner/ApiFutebolFeminino",
       "description": "Soccer News",
-      "stargazers_count": 0,
+      "stargazers_count": 4,
       "language": "json"
     },
     {
@@ -59,7 +58,7 @@
       },
       "html_url": "https://github.com/Karl-Otaner/api-collections",
       "description": "description",
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "language": "Kotlin"
     }
   ]

@@ -1,6 +1,12 @@
 package com.dio.apprepositories.data.model
 
+import com.google.gson.annotations.SerializedName
+
 data class Owner (
+    @SerializedName("login")
     val login: String,
-    val avatarURL: String
+    @SerializedName("avatar_url")
+    val avatarURL: String,
+    @SerializedName("html_url")
+    val htmlURL: String
 )

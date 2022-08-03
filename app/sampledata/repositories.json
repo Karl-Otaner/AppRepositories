@@ -1,40 +1,42 @@
 {
   "data": [
     {
-      "id": 519965312,
-      "name": "AppRepositories",
+      "id": 229942272,
+      "name": "alura-git",
       "owner": {
         "login": "Karl-Otaner",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4"
+        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4",
+        "html_url": "https://github.com/Karl-Otaner"
       },
-      "stargazers_count":5,
-      "language": "Kotlin",
-      "html_url": "https://github.com/Karl-Otaner/AppRepositories",
-      "description": "description"
-    },
-    {
-      "id": 511900797,
-      "name": "AppFutebolFeminino",
-      "owner": {
-        "login": "Karl-Otaner",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4"
-      },
-      "html_url": "https://github.com/Karl-Otaner/AppFutebolFeminino",
-      "description": "BootCamp Santander 2022 - Modulo II - Desafio de projeto",
-      "url": "https://api.github.com/repos/Karl-Otaner/AppFutebolFeminino",
-      "stargazers_count": 4,
+      "html_url": "https://github.com/Karl-Otaner/alura-git",
+      "description": "Lista de cursos para controlar no GIT",
+      "stargazers_count":0,
       "language": "Java"
     },
     {
-      "id": 501892028,
-      "name": "AplicandoConceitosDeColecoesArraysEListas",
+      "id": 493868470,
+      "name": "AluraPrimeiroAppMobileAndroid",
       "owner": {
         "login": "Karl-Otaner",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4"
+        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4",
+        "html_url": "https://github.com/Karl-Otaner"
       },
-      "html_url": "https://github.com/Karl-Otaner/AplicandoConceitosDeColecoesArraysEListas",
-      "description": "created string array of class",
-      "stargazers_count": 0,
+      "html_url": "https://github.com/Karl-Otaner/AluraPrimeiroAppMobileAndroid",
+      "description": "Curso de Android parte 1: crie a sua primeira app mobile",
+      "stargazers_count":0,
+      "language": "Java"
+    },
+    {
+      "id": 391786725,
+      "name": "api-collections",
+      "owner": {
+        "login": "Karl-Otaner",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4",
+        "html_url": "https://github.com/Karl-Otaner"
+      },
+      "html_url": "https://github.com/Karl-Otaner/api-collections",
+      "description": "description",
+      "stargazers_count":0,
       "language": "Kotlin"
     },
     {
@@ -42,23 +44,102 @@
       "name": "ApiFutebolFeminino",
       "owner": {
         "login": "Karl-Otaner",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4"
+        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4",
+        "html_url": "https://github.com/Karl-Otaner"
       },
       "html_url": "https://github.com/Karl-Otaner/ApiFutebolFeminino",
-      "description": "Soccer News",
-      "stargazers_count": 4,
-      "language": "json"
+      "description": "API (provida via GitHub Pages) do app de FutebolFeminino",
+      "stargazers_count":0,
+      "language": "Formato de dados: json"
     },
     {
-      "id": 391786725,
-      "name": "api-collections",
+      "id": 501892028,
+      "name": "AplicandoConceitosDeColecoesArraysEListas",
       "owner": {
         "login": "Karl-Otaner",
-        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4"
+        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4",
+        "html_url": "https://github.com/Karl-Otaner"
       },
-      "html_url": "https://github.com/Karl-Otaner/api-collections",
-      "description": "description",
-      "stargazers_count": 1,
+      "html_url": "https://github.com/Karl-Otaner/AplicandoConceitosDeColecoesArraysEListas",
+      "description": "Description",
+      "stargazers_count":0,
+      "language": "Kotlin"
+    },
+    {
+      "id": 511900797,
+      "name": "AppFutebolFeminino",
+      "owner": {
+        "login": "Karl-Otaner",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4",
+        "html_url": "https://github.com/Karl-Otaner"
+      },
+      "html_url": "https://github.com/Karl-Otaner/AppFutebolFeminino",
+      "description": "BootCamp Santander 2022 - Modulo II - Desafio de projeto",
+      "stargazers_count":0,
+      "language": "Java"
+    },
+    {
+      "id": 519965312,
+      "name": "AppRepositories",
+      "owner": {
+        "login": "Karl-Otaner",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4",
+        "html_url": "https://github.com/Karl-Otaner"
+      },
+      "html_url": "https://github.com/Karl-Otaner/AppRepositories",
+      "description": "AppRepositories - Desafio de projeto III - Final",
+      "stargazers_count":0,
+      "language": "Kotlin"
+    },
+    {
+      "id": 519363061,
+      "name": "BusinessCard",
+      "owner": {
+        "login": "Karl-Otaner",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4",
+        "html_url": "https://github.com/Karl-Otaner"
+      },
+      "html_url": "https://github.com/Karl-Otaner/BusinessCard",
+      "description": "Desafio Modulo III - Criando um app de Cartão de Visitas em Kotlin",
+      "stargazers_count":0,
+      "language": "Kotlin"
+    },
+    {
+      "id": 267897312,
+      "name": "Dio",
+      "owner": {
+        "login": "Karl-Otaner",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4",
+        "html_url": "https://github.com/Karl-Otaner"
+      },
+      "html_url": "https://github.com/Karl-Otaner/Dio",
+      "description": "Class-Git&GitHub-Digital Innovation One",
+      "stargazers_count":0,
+      "language": "HTML"
+    },
+    {
+      "id": 499349955,
+      "name": "dioBootCampSantander2022",
+      "owner": {
+        "login": "Karl-Otaner",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4",
+        "html_url": "https://github.com/Karl-Otaner"
+      },
+      "html_url": "https://github.com/Karl-Otaner/dioBootCampSantander2022",
+      "description": "Repositorios para os Projetos do bootcamp",
+      "stargazers_count":0,
+      "language": "kotlin"
+    }, {
+      "id": 385792967,
+      "name": "DioSantander_FundOOKotlin",
+      "owner": {
+        "login": "Karl-Otaner",
+        "avatar_url": "https://avatars.githubusercontent.com/u/52242547?v=4",
+        "html_url": "https://github.com/Karl-Otaner"
+      },
+      "html_url": "https://github.com/Karl-Otaner/DioSantander_FundOOKotlin",
+      "description": "Fundamentos de POO em Kotlin",
+      "stargazers_count":0,
       "language": "Kotlin"
     }
   ]

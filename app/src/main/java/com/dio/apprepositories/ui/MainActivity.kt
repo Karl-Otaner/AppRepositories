@@ -6,13 +6,18 @@ import android.view.Menu
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import com.dio.apprepositories.R
+import com.dio.apprepositories.core.createDialog
+import com.dio.apprepositories.core.createProgressDialog
+import com.dio.apprepositories.core.hideSoftKeyboard
 import com.dio.apprepositories.databinding.ActivityMainBinding
 import com.dio.apprepositories.presentation.MainViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
 
+    private val dialog by lazy { createProgressDialog() }
     private val viewModel by viewModel<MainViewModel>()
+    private val adapter by lazy { RepoListAdapter() }
     private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,9 +25,24 @@ class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
         setContentView(binding.root)
 
         setSupportActionBar(binding.toolbar)
+        binding.rvRepos.adapter = adapter
 
-        viewModel.repos.observe(this){
 
+        viewModel.repos.observe(this) {
+            when (it) {
+                MainViewModel.State.Loading -> {dialog.show()
+                }
+                is MainViewModel.State.Error -> {
+                    createDialog{
+                        setMessage(it.error.message)
+                    }.show()
+                    dialog.dismiss()
+                }
+                is MainViewModel.State.Success -> {
+                    dialog.dismiss()
+                    adapter.submitList(it.list)
+                }
+            }
         }
     }
 
@@ -34,7 +54,8 @@ class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
     }
 
     override fun onQueryTextSubmit(query: String?): Boolean {
-        Log.e(TAG, "onQueryTextSugmit: $query")
+        query?.let { viewModel.getRepoList(it) }
+        binding.root.hideSoftKeyboard()
         return true
     }
 
@@ -42,6 +63,7 @@ class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
         Log.e(TAG, "onQueryTextChange: $newText")
         return false
     }
+
     companion object {
         private const val TAG = "TAG"
     }
